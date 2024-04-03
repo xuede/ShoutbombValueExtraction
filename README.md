@@ -1,6 +1,6 @@
 # Shoutbomb Extraction Script
 
-This Python script is designed to extract library notice counts and the number of registered patrons for each library from a text file and generate a CSV output. It is specifically tailored for internal use at the library.
+This Python script is designed to extract library notice counts and the number of registered patrons for each library from a text file and generate a CSV output. It is tailored explicitly for internal use at the Electronic Information Network.
 
 ## Usage
 
@@ -35,7 +35,17 @@ The script generates a CSV file with the following columns:
 
 This script has no external dependencies and only uses built-in Python modules (`re` and `csv`). Therefore, you don't need to install any additional packages or set up a virtual environment to run the script.
 
-However, let's be honest: who doesn't love using virtual environments? 🙃 If you're a fan of organizing and isolating your projects, feel free to create a virtual environment for this script. It's like having a cozy little home for your code!
+But go ahead and venv if you like.
+
+## Roadmap
+
+- [x] Extract notice counts and registered patrons from the input file
+- [x] Generate a CSV output with the extracted data
+- [ ] Add the ability to dump the entire raw data instead of only the desired output
+
+## Wishlist??
+- [ ] Add more statistical data
+- [ ] Add data visualization
 
 ## License
 
